@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/*header*/
+
+header nav a, ul {
+    text-decoration: none;
+    color: black;
+}
+
+/*index*/
+
+.read-more-services {
+    text-decoration: none;
+    color: black;
+}
+
+.read-more-about {
+    text-decoration: none;
+    color: black;
+}
+
+/*about*/
+
+
+
+/*products*/
+
+
+
+/*footer*/
+
+
+
+footer {
+    background-color: #252525;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 9rem;
+    
+}
+
+.footer {
+    text-decoration: none;
+    color: #fff;
+}
