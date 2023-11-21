@@ -9,19 +9,24 @@
 <body id="grid-container">
     <header>
         <nav>
-            <a href="index.html">LOGOBILDE</a>
-
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="products.html">Portfolio</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="about.html">Contact</a></li>
-            </ul>
+            <div>
+                <ul>
+                    <li><a href="index.html" class="logobilde">LOGOBILDE</a></li>
+                </ul>
+            </div>
+            <div id="div-help">
+                <ul id="help">
+                    <li><a href="index.html"><strong>Home</strong></a></li>
+                    <li><a href="products.html"><strong>Portfolio</strong></a></li>
+                    <li><a href="about.html"><strong>About</strong></a></li>
+                    <li><a href="about.html"><strong>Contact</strong></a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <main>
-        <section>
+    <main id="main">
+        <section class="main-top">
             <h1>Compelling headline</h1>
 
             <p>The shadows are just like the highlights, but we're going in the opposite direction. 
@@ -30,26 +35,27 @@
             <a href="about.html" class="read-more-services">Read more about our services</a>
         </section>
 
-        <section>
+        <section class="main-center">
             <h2>Engaging subheading. What can you help yor visitors with</h2>
 
             <p>I can't think of anything more rewarding than being able to express yourself to others through painting. 
                 Just beat the devil out of it.</p>
         </section>
 
-        <section>   
-            <h3>About Our Company</h3>
+        <section class="main-center2">   
+            <img src="https://placehold.co/400" alt="bilde tilhørende about our services seksjonen" class="center2-img">
 
-            <img src="" alt=""><!--eller grå boks?-->
+            <span>
+                <h3>About Our Company</h3>
 
-            <p>Everyone needs a friend. Friends are the most valuable things in the world.
-                Nothing's gonna make your husband or wife madder than coming home and having a snow-covered dinner.</p>
+                <p>Everyone needs a friend. Friends are the most valuable things in the world.
+                    Nothing's gonna make your husband or wife madder than coming home and having a snow-covered dinner.</p>
 
-            <a href="about.html" class="read-more-about">Read more about us</a>
-            
+                <a href="about.html" class="read-more-about">Read more about us</a>
+            </span>
         </section>
 
-        <section>
+        <section class="main-bottom">
             <h3>Our services</h3>
             <article>
                 <h4>Branding</h4>
@@ -75,22 +81,28 @@
                     and a touch of Prussian blue</p>
             </article>
         </section>
+       
+        <section class="newsletter">
+            <form>
+                <label for="email-signup">Sign up for our newsletter</label>
+                <input type="text" id="email-signup">
+                <input type="submit" value="Sign me up">
+            </form>
+        </section>
+
     </main>
-    <section>
-        <form>
-            <label for="email-signup">Sign up for our newsletter</label>
-            <input type="text" id="email-signup">
-            <input type="submit" value="Sign me up">
-        </form>
-    </section>
+
+    
     <footer>
-        <a href="index.html" class="footer-logo">LOGOBILDE</a>
-
+        <a class="footer-logo" href="index.html">LOGOBILDE</a>
+    
         <p class="footer-center">Company copyright 2023</p>
-
-        <a href="https://www.facebook.com/?locale=nb_NO" class="footer-socials">facebook</a>
-        <a href="https://www.instagram.com/" class="footer-socials">instagram</a>
-        <a href="https://no.linkedin.com/" class="footer-socials">linkedin</a>
+    
+        <article class="footer-socials">
+            <a href="https://www.facebook.com/?locale=nb_NO">facebook</a>
+            <a href="https://www.instagram.com/">instagram</a>
+            <a href="https://no.linkedin.com/">linkedin</a>
+        </article>
     </footer>
 </body>
 </html>
