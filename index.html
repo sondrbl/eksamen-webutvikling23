@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/fontawesome-free-6.4.2-web/css/fontawesome.css" rel="stylesheet">
+    <link href="css/fontawesome-free-6.4.2-web/css/brands.css" rel="stylesheet">
+    <link href="css/fontawesome-free-6.4.2-web/css/solid.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <title>Forside</title>
 </head>
@@ -11,15 +14,16 @@
         <nav>
             <div>
                 <ul>
-                    <li><a href="index.html" class="logobilde">LOGOBILDE</a></li>
+                    <li><a href="index.html" class="logobilde"><img src="img/logo1.png" alt="Logoen i headeren"></a></li>
                 </ul>
             </div>
             <div id="div-help">
                 <ul id="help">
-                    <li><a href="index.html"><strong>Home</strong></a></li>
+                    <li><a href="index.html" class="home-header"><strong>Home</strong></a></li>
                     <li><a href="products.html"><strong>Portfolio</strong></a></li>
                     <li><a href="about.html"><strong>About</strong></a></li>
-                    <li><a href="about.html"><strong>Contact</strong></a></li>
+                    <li><a href="about.html#contact-form" class="contact"><strong>Contact</strong></a></li>
+                    
                 </ul>
             </div>
         </nav>
@@ -32,7 +36,7 @@
             <p>The shadows are just like the highlights, but we're going in the opposite direction. 
                 No worries. No cares. Just float and wait for the wind to blow you around.</p>
 
-            <a href="about.html" class="read-more-services">Read more about our services</a>
+            <a href="index.html#main-bottom-link" class="read-more-services">Read more about our services</a>
         </section>
 
         <section class="main-center">
@@ -45,17 +49,17 @@
         <section class="main-center2">   
             <img src="https://placehold.co/400" alt="bilde tilhørende about our services seksjonen" class="center2-img">
 
-            <span>
+            <div class="div-center2">
                 <h3>About Our Company</h3>
-
+            
                 <p>Everyone needs a friend. Friends are the most valuable things in the world.
                     Nothing's gonna make your husband or wife madder than coming home and having a snow-covered dinner.</p>
 
                 <a href="about.html" class="read-more-about">Read more about us</a>
-            </span>
+            </div>
         </section>
 
-        <section class="main-bottom">
+        <section class="main-bottom" id="main-bottom-link">
             <h3>Our services</h3>
             <article>
                 <h4>Branding</h4>
@@ -86,9 +90,9 @@
      
         <footer class="newsletter">
             <form>
-                <label for="email-signup"><strong>Sign up for our newsletter</strong></label>
+                <label for="email-signup"><strong>Sign up for our newsletter</strong></label><br>
                 <input type="text" id="email-signup">
-                <input type="submit" value="Sign me up">
+                <input type="submit" value="Sign me up" id="signup">
             </form>
         </footer>
     
@@ -96,14 +100,14 @@
     
     <footer>
 
-        <a class="footer-logo" href="index.html">LOGOBILDE</a>
+        <a class="footer-logo" href="index.html"><img src="img/logo1.png" alt="Logoen i footeren"></a>
     
         <p class="footer-center">Company copyright 2023</p>
     
         <article class="footer-socials">
-            <a href="https://www.facebook.com/?locale=nb_NO">facebook</a>
-            <a href="https://www.instagram.com/">instagram</a>
-            <a href="https://no.linkedin.com/">linkedin</a>
+            <a href="https://www.facebook.com/?locale=nb_NO"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://no.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
         </article>
     </footer>
 </body>
