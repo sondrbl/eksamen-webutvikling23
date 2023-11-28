@@ -138,7 +138,6 @@ header nav a, ul li{
 
 .about-container {
     position: relative;
-    
 }
 
 .about-container figcaption {
@@ -149,7 +148,6 @@ header nav a, ul li{
     left: 40%;
     background-color: #e1e0e0;
     color: black;
-
 }
 
 figcaption .figcaption-link {
@@ -172,6 +170,7 @@ figcaption .figcaption-link {
 
 .our-services-branding {
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 .bilde-kart {
@@ -179,6 +178,11 @@ figcaption .figcaption-link {
 }
 
 /*products*/
+
+hr {
+    grid-area: main;
+    color: #e6bd43;
+}
 
 .portfolio-container img {
     opacity: 0.5;
@@ -225,7 +229,21 @@ figcaption .figcaption-link {
     width: 100%;
 }
 
+.product-branding-main1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
 .product-design-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.product-development {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -366,12 +384,10 @@ main {
 
 /*about*/
 
-.fa-wifi {
-       
-}
-
-.our-services {
-
+.services-icons {
+    display: inline-grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 95%;
 }
 
 .branding-icons {
@@ -460,6 +476,7 @@ hr {
     border: solid;
     border-width: thin;
     padding: 0.5rem;
+    gap: 2px;
 }
 
 .product-branding-main {
@@ -470,20 +487,22 @@ hr {
     flex-direction: column;
 }
 
+.product-branding-main1 {
+    grid-area: main;
+    width: 50%;
+}
+
 .product-design-main {
     grid-area: main;
     display: inline-flex;
     width: 33%;
-    
 }
 
 .product-development {
     grid-area: main;
     display: inline-flex;
-    flex-direction: column;
-    align-items: space-around;
+    padding-left: 3rem;
     width: 45%;
-    
 }
 
 /*footer*/
