@@ -45,9 +45,17 @@ header nav a, ul li{
     padding: 0.5rem 0.5rem;
 }
 
-
-
 /*index*/
+
+.arrow-shortcut {
+    color: white;
+    background-color: black;
+    padding: 1rem;
+    right: 1rem;
+    bottom: 20rem;
+    position: fixed;
+    z-index: 10;
+}
 
 #main {
     grid-area: main;
@@ -131,28 +139,17 @@ header nav a, ul li{
 
 /*about*/
 
-.about-container img {
-    width: 100%;
-    height: 100vh;
-}
-
-.about-container {
-    position: relative;
-}
-
-.about-container figcaption {
-    width: 50%;
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
-    left: 40%;
+.about-our-company {
     background-color: #e1e0e0;
-    color: black;
+    padding: 3rem;
 }
 
-figcaption .figcaption-link {
+.about-our-company-link {
+    background-color: #e6bd43;
     text-decoration: none;
     color: black;
+    padding: 1rem;
+    font-weight: bold;
 }
 
 .clients-section {
@@ -384,6 +381,8 @@ main {
 
 /*about*/
 
+
+
 .services-icons {
     display: inline-grid;
     grid-template-columns: 25% 25% 25% 25%;
@@ -476,7 +475,7 @@ hr {
     border: solid;
     border-width: thin;
     padding: 0.5rem;
-    gap: 2px;
+    
 }
 
 .product-branding-main {
